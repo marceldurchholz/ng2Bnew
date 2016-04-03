@@ -1,0 +1,12 @@
+<div class="row" style="margin-left: 0; margin-right: 0;">
+  <Menu #appMennu class="noSpace">
+    <MenuItem [fontAwesome]="'fa-pencil-square-o'" [tabtitle]="'Todos'"></MenuItem>
+    <MenuItem [fontAwesome]="'fa-digg'" [tabtitle]="'Digg'"></MenuItem>
+    <MenuItem [fontAwesome]="'fa-cogs'" [tabtitle]="'Settings'"></MenuItem>
+    <MenuItem [fontAwesome]="'fa-life-buoy'" [tabtitle]="'Help'"></MenuItem>
+    <MenuItem [fontAwesome]="'fa-power-off'" [tabtitle]="'Logout'"></MenuItem>
+  </Menu>
+  <div id="mainPanelWrapWasp" class="col-xs-12 col-sm-12 col-md-12 col-lg-11 appHeight">
+   <router-outlet></router-outlet>
+  </div>
+</div>
